@@ -1,4 +1,4 @@
-node-niumbus-oww
+node-nimbus-oww
 ================
 
-One Wire Weather integration with the Quirky Nimus using Node.js
+One Wire Weather integration with the Quirky Nimbus using Node.js
