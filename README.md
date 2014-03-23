@@ -26,7 +26,10 @@ This assumes that you have node.js installed on your computer and that the OWW d
   * config.passwd - Your password at quirk.com
   * config.weatherDir - The path to your weather data
 4. Run the program with node
+
+    ```
     node node-nimbus-oww.js
+    ```
 
 Additional Information
 ----------------------
