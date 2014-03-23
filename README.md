@@ -11,17 +11,17 @@ Installation
 ------------
 This assumes that you have node.js installed on your computer and that the OWW data is being collected to CSV files somewhere on your file system. To use the WinkApi you will need to have an account at [quirky.com](quirky.com) and request API tokens from them. There is not currently a process for this but you can request them by sending email to questions@quirky.com, more information can be found in [this thread](https://www.quirky.com/forums/topic/21462).
 
-# Download node-nimbus-oww into a directory on your computer (e.g. /usr/local/node-nimbus-oww)
-# Install the dependency libraries
+1. Download node-nimbus-oww into a directory on your computer (e.g. /usr/local/node-nimbus-oww)
+2. Install the dependency libraries
     npm install node-winkapi
     npm install dateformat
-# Rename the sample-config.js to config.js and edit it setting the following values
+3. Rename the sample-config.js to config.js and edit it setting the following values
   config.clientId - The API Client ID
   config.clientSecret - The API Client Secret
   config.login - Your login at quirky.com
   config.passwd - Your password at quirk.com
   config.weatherDir - The path to your weather data
-# Run the program with node
+4. Run the program with node
     node node-nimbus-oww.js
 
 Additional Information
